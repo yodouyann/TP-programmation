@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.f-text{
+    color :white;
+    text-align: center;
+}
+header{
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo .logo-img{
+    width: 80px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    height: 100%;
+    align-items: center;
+    padding: 12px 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    height: 400px;
+}
+
+/*footer style*/
+footer{
+    background-color: midnightblue;
+    /*marge interieur*/
+    padding: 12px 0px;
+}
